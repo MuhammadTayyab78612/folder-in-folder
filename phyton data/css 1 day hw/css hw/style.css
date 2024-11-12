@@ -1,0 +1,104 @@
+
+body{
+    background-image: linear-gradient(to left , rgb(219, 253, 196) , white , rgb(219, 253, 196));
+}
+
+
+
+.logo{
+
+   text-align: center; 
+}
+
+.img1{
+width: 200px;
+}
+
+.header{
+
+    text-align: center;
+    background-image: linear-gradient(to left , rgb(113, 209, 247) , rgb(162, 234, 247) , rgb(122, 197, 248));
+    border: 1px;
+    border-radius: 5px;
+}
+
+.box1{
+    width: 680px;
+    height: 535px;
+    border: solid 1px;  
+    float: left;
+    text-align:center;
+    margin: 10px;
+    box-shadow: 2px 3px 7px 2px;
+text-decoration: underline rgb(255, 0, 0);
+text-decoration-thickness: 2px;
+}
+
+.box2{
+    width: 680px;
+    height: 535px;
+    border: solid 1px;
+    float: right;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 2px 3px 7px 2px;
+    text-decoration: underline rgb(255, 0, 0);
+text-decoration-thickness: 2px;
+}
+
+
+.box3{
+    width: 680px;
+    height: 450px;
+    border: solid 1px;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 2px 3px 7px 2px;
+    text-decoration: underline rgb(255, 0, 0);
+text-decoration-thickness: 2px;
+}
+
+
+
+
+.box4{
+    width: 680px;
+    height: 450px;
+    border: solid 1px;
+    float: right;
+    text-align: center;
+    margin: 10px;
+box-shadow: 2px 3px 7px 2px;
+text-decoration: underline rgb(255, 0, 0);
+text-decoration-thickness: 2px;
+}
+
+
+.para1{color: rgb(0, 4, 255);
+text-indent: 40px;
+text-decoration: dashed;
+text-shadow: 2px 5px 3px black;
+line-height: 26px;
+word-spacing: 5px;
+}
+.para2{color: rgb(0, 38, 255);
+    text-indent: 40px;
+    text-decoration: dashed;
+    text-shadow: 2px 5px 3px black;
+    line-height: 21px;
+    word-spacing: 5px;
+    }
+    .para3{color: rgb(16, 0, 245);
+        text-indent: 40px;
+        text-decoration: dashed;
+        text-shadow: 2px 5px 3px black;
+        line-height: 21px;
+        }
+        .para4{color: rgb(4, 0, 255);
+            text-indent: 40px;
+            text-decoration: dashed;
+            text-shadow: 2px 5px 3px black;
+            line-height: 21px;
+
+            }

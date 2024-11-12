@@ -1,0 +1,29 @@
+
+.logo{
+flex-direction: row;
+  
+}
+
+.ilt ul li{
+flex-direction: row;
+display: inline;
+
+}
+
+
+.main{
+border: 3px solid black;
+height: 600px;
+
+}
+
+
+.c{
+border: 2px solid black;
+padding: 8px; 
+flex-wrap: wrap;
+/* flex-direction: column; */
+
+}
+
+

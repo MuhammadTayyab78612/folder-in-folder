@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+display: grid;
+grid-template-areas: 'logo logo logo logo logo logo''bar bar bar bar bar bar''con con con con sidebar sidebar'
+'footer footer footer footer footer footer';
+
+}
+.b1{
+grid-area: logo;
+text-align: center;
+padding: 20px;
+background-image: linear-gradient(to right , rgb(250, 94, 94) , rgb(253, 182, 182) , rgb(250, 103, 103))
+
+}
+
+.b2{
+    
+grid-area: bar;
+gap: 20;
+background-color: rgb(252, 138, 138);
+padding: 10px;
+
+}
+
+.b2 ul{  
+    list-style: none;
+    text-align: center;
+
+    
+}
+.b2 ul li{
+    display: inline; 
+    padding: 2px 8px;
+}
+
+.b2 ul li:hover{
+    background-color: aquamarine;
+    
+}
+
+
+
+.b3{
+grid-area: con;
+padding: 10px;
+}
+.img11{
+    margin-top: 10px;
+    width: 49%;
+   
+}
+.img12{
+    margin-top: 10px;
+    width: 49%;
+    float: right;
+}
+.img13{
+    margin-top: 10px;
+    width: 49%;
+}
+.img14{
+    margin-top: 10px;
+    width: 49%;
+    float: right;
+}
+
+.b4{
+grid-area: sidebar;
+padding: 10px;
+overflow: scroll;
+height: 900px;
+}
+
+.b5{
+grid-area: footer;
+
+background-color: rgb(255, 106, 106);
+text-align: center;
+padding: 10px;
+
+}
+
+.box{
+    border: 1px solid black;
+}

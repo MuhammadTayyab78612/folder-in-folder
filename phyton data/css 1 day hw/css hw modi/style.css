@@ -1,0 +1,114 @@
+
+
+
+
+
+.logo{
+
+   text-align: center; 
+}
+
+.img1{
+width: 200px;
+}
+
+.header{
+
+    text-align: center;
+    background-image: linear-gradient(to left , rgb(113, 209, 247) , rgb(162, 234, 247) , rgb(122, 197, 248));
+    border: 1px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.nav-bar ul li{
+    display: inline;
+    margin: 15px;
+    padding: 5px;
+    background-color: rgb(159, 233, 255);
+    color: rgb(0, 0, 0);
+    
+}
+.nav-bar{
+    text-align: center;
+    position: sticky;
+    top: 10px;
+}
+
+.bimg2{
+width: 98vw;
+height: 70vh;
+}
+
+.bheader1{
+    text-align: center;
+}
+
+
+.para1{color: rgb(0, 0, 0);
+text-indent: 40px;
+text-decoration-line: underline;
+text-shadow: 2px 5px 3px black;
+line-height: 26px;
+word-spacing: 5px;
+
+}
+
+
+.bheader2{
+    text-align: center;
+   
+}
+
+
+
+.para2{color: rgb(0, 38, 255);
+    text-indent: 40px;
+    text-shadow: 2px 5px 3px black;
+    line-height: 21px;
+    word-spacing: 5px;
+ text-decoration-line: underline;
+    }
+
+
+ .mainform{
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 550px;
+    position: absolute;
+    right: 500px;
+ }
+      
+ .inform{
+    position: absolute;
+right: 20px;
+top: 20px;
+
+ }
+
+ .f9 input{
+    display: block;
+ }
+    
+ .sumbit{
+    position: absolute;
+    right: 220px;
+top: 480px;
+ }
+
+ .line{
+ height: px;
+ border:  solid 1px black;
+position: absolute;
+bottom: -1450px;
+width: 1500px;
+ }
+ .fff{
+    position: absolute;
+    bottom: -1510px;
+ }

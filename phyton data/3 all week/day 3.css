@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+   display: block;
+}
+
+.logo1{
+    color: rgb(211, 123, 90);
+    font-weight: 500;
+    font-family: inherit 
+    
+}
+
+.header{
+    margin: 0;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+
+      
+    
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+}
+
+.nav-bar ul{
+    display: inline;
+   
+
+}
+
+.nav-bar ul li{
+list-style: none;
+display: inline;
+color: #959595;
+padding: 10px 15px;
+}
+
+
+.backgrounding{
+    background-image: url(./light-bulb-on-wooden-table.jpg);
+} 
+
+
+
+.maincontant{
+    width: 100%;
+    height: 400px;
+background-color: aqua;
+}
+
+.heading{
+display: flex;
+justify-content: center;
+   font-weight: 500;
+   line-height: 1.6;
+   word-spacing: 3px;
+   
+}
+
+.hpara{
+    display: flex;
+justify-content: center;
+    word-spacing: 3px;
+}
+ 
+.mheading{
+    
+    font-size: 57px;
+    font-family: inherit
+    
+   
+}
+.hbutton11{
+    display: flex;
+    justify-content: center;
+}
+.hbutton{
+
+    text-align: center;
+   padding: 0px 16px;
+   border-radius: 8px;
+    line-height: 2;
+    /* display: inline-block; */
+    border: 1px solid rgb(255, 94, 0);
+    background-color: rgb(255, 94, 0);
+ 
+}
+.link1{
+    
+    
+    text-decoration: none;
+    color: white;
+}
+.uyuy{
+    width: 130px;
+  
+}
+
+.superior{
+    color: rgb(211, 123, 90);
+}
+
+.service{
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.para11{
+    display: flex;
+    justify-content: center;
+}
+.para1{
+
+    font-size: 20px;
+  line-height: 1.5;
+    text-align: center;
+    width: 800px;
+
+    /* margin-left: 240px;
+    margin-right: 240px; */
+    color: #959595;
+}
+
+.imgs{
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.cimg{
+max-width: 630px;
+
+}
+.cimg:hover{
+box-shadow: 2px 2px 15px 1px;
+}
+
+.boxss{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+  justify-content: center; 
+padding-left: 130px;
+padding-right: 130px;
+padding-top: 60px;
+gap: 25px;
+
+}
+
+.para2{
+text-align: center;
+font-weight: 500;
+}
+.worldclass{
+    font-weight: 500;
+    font-family:inherit ;
+}
+
+.box{
+    padding: 10px;
+    max-width: 320px;
+}
+.Worldbox1{
+    border: 1px solid rgb(173, 172, 172); 
+}
+.Worldbox2{
+    border: 1px solid rgb(173, 172, 172); 
+}
+.Worldbox3{
+    border: 1px solid rgb(173, 172, 172); 
+}
+.Worldbox4{
+    border: 1px solid rgb(173, 172, 172); 
+    
+}
+.box2{
+    color: rgb(211, 123, 90)
+}
+
+
+.cartbutton{
+    background-color: rgb(255, 94, 0);
+    padding: 10px;
+    border-radius: 6px;
+    border: 0px solid rgb(255, 94, 0);
+    color: white;
+
+}
+
+.from-control{
+    height: 35px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.service{
+    color: rgb(211, 123, 90);
+    font-weight: 500;
+    font-family: inherit
+}
+.para33{
+    display: flex;
+    justify-content: center;
+}
+.para3{
+    font-family: inherit;
+    font-size: 20px;
+  line-height: 1.5;
+    text-align: center;
+ 
+    color: #959595;  
+}
+
+.roundimg{
+margin-left: 36%; 
+margin-top: 60px;
+ border: 0 solid ;
+ border-radius: 50%;
+}
+.para4{ 
+     color: rgb(211, 123, 90);
+    text-align: center;
+    font-weight: 500;
+    font-family: inherit
+    
+   
+
+}
+
+.map{
+    height: 300px;
+    width: 100%;
+}
+
+.mappara{
+    text-align: center;
+
+}
+
+.mappara{
+    font-size: 21px;
+    
+}
+
+.para5{
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+.contantus{
+    color: rgb(211, 123, 90);
+    font-weight: 500;
+    font-family: inherit
+  
+}
+.num{
+    font-size: 21px; 
+    color: #959595;
+}
+
+.mainfooter{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    padding: 10px;
+border: 1px solid #f7f7f7;
+min-height: 150px;
+background: #f7f7f7;
+
+}
+
+.footerinformation1{
+   
+    float: left;
+    line-height: 22px;
+    justify-content: center;
+    
+
+    padding-left: 190px;
+
+  
+}
+
+.footerinformation1 ul li{
+    list-style: none;
+    color: #959595;
+
+}
+
+.from-controll{
+    height: 27px;
+    width: 250px;
+    border-radius: 4px ;
+
+}
+
+.lastform{
+    height: 27px;
+    background-color:rgb(255, 94, 0) ;
+    border: 0;
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
+}
+
+.llll{
+    color: rgb(211, 123, 90);
+    text-decoration: none;
+}
+
+.lastp{
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+
+@media (max-width: 871px)
+  {
+    .footermap{
+        display: none;
+    }
+    .limg{
+        display: none;
+    }
+  }
+  @media (max-width 1136px)
+  {
+    .mainfooter{
+      
+    }
+  }

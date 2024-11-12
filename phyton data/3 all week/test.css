@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 1rem;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Header Section */
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.25rem;
+}
+
+/* Services Section */
+#services {
+    padding: 60px 0;
+}
+
+#services h2 {
+    margin-bottom: 40px;
+}
+
+#services img {
+    margin-bottom: 20px;
+}
+
+#services p {
+    font-size: 1.1rem;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 0;
+}
+
+#contact h2 {
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
